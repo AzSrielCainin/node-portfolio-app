@@ -1,0 +1,652 @@
+.resume-child {
+    position: absolute;
+    top: -749.69px;
+    left: -733.33px;
+    border-radius: 50%;
+    background-color: #142d47;
+    width: 1466.7px;
+    height: 1499.4px;
+}
+.resume-item {
+    position: absolute;
+    top: 457.14px;
+    left: 1143.55px;
+    background-color: #142d47;
+    width: 582.3px;
+    height: 538px;
+}
+
+/* Use keyframes for animation if needed */
+@keyframes w3-animate-left {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Use keyframes for animation if needed */
+@keyframes w3-animate-right {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply the animation when home-item becomes visible */
+.resume-child {
+    animation: w3-animate-left 1s forwards; /* Add animation when displayed */
+}
+ 
+.resume-item {
+    animation: w3-animate-right 1s forwards; /* Add animation when displayed */
+}
+.find-out-more {
+    position: absolute;
+    top: 536.86px;
+    left: 544px;
+    font-size: 40px;
+    letter-spacing: -0.01em;
+    color: #ffe100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 640px;
+    height: 156px;
+}
+.my-resume {
+    position: absolute;
+    top: 390.86px;
+    left: 237.5px;
+    font-size: 128px;
+    letter-spacing: -0.01em;
+    font-family: 'Brown Sugar';
+    color: #ffe100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1253px;
+    height: 146px;
+}
+.home {
+    position: absolute;
+    top: 53.84px;
+    left: 1318.31px;
+    font-size: 24px;
+}
+.about-me {
+    position: absolute;
+    top: 53.84px;
+    left: 1425.5px;
+    font-size: 24px;
+}
+.resume1 {
+    position: absolute;
+    top: 53.84px;
+    left: 1576.69px;
+    font-size: 24px;
+    color: #ffe100;
+}
+.s-logo-01-3 {
+    position: absolute;
+    top: 29.75px;
+    left: 25.43px;
+    width: 56px;
+    height: 81.2px;
+    object-fit: cover;
+}
+.hello {
+    position: absolute;
+    top: 1228.57px;
+    left: 514.47px;
+    font-size: 57.14px;
+    letter-spacing: 0.05em;
+    line-height: 120%;
+    font-family: 'Brown Sugar';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 208px;
+    height: 100.9px;
+}
+.personal-skills {
+    position: absolute;
+    top: 1618.72px;
+    left: 277.27px;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    line-height: 120%;
+    font-family: 'Brown Sugar';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 451.2px;
+    height: 74.1px;
+}
+.experience {
+    position: absolute;
+    top: 1996.38px;
+    left: 75.85px;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    line-height: 120%;
+    font-family: 'Brown Sugar';
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 351.5px;
+    height: 74.1px;
+}
+.education {
+    position: absolute;
+    top: 2250.48px;
+    left: 997.47px;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    line-height: 120%;
+    font-family: 'Brown Sugar';
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 295.3px;
+    height: 74.1px;
+}
+.honors-and-awards {
+    position: absolute;
+    top: 2831.28px;
+    left: 993.9px;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    line-height: 120%;
+    font-family: 'Brown Sugar';
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 576px;
+    height: 74.1px;
+}
+.tools {
+    position: absolute;
+    top: 1618.72px;
+    left: 1243.96px;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    line-height: 120%;
+    font-family: 'Brown Sugar';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 215.9px;
+    height: 74.1px;
+}
+.im-sriyakshi-a {
+    margin: 0;
+}
+.im-sriyakshi-a-container1 {
+    width: 100%;
+}
+.im-sriyakshi-a-container {
+    position: absolute;
+    top: 1349.99px;
+    left: 514.47px;
+    font-size: 35.71px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 1097.3px;
+    height: 198.2px;
+}
+.distinction-scholarship-for-container {
+    position: absolute;
+    top: 2924.13px;
+    left: 994.8px;
+    font-size: 35.71px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 658.9px;
+    height: 199.6px;
+}
+.resume-inner {
+    position: absolute;
+    top: 1852.64px;
+    left: 668.92px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 274.1px;
+    height: 76.8px;
+}
+.logo-designer {
+    margin: 0;
+    font-size: 42.9px;
+}
+.logo-designer-nupur-container {
+    position: absolute;
+    top: 2528.08px;
+    left: 73.42px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 687.5px;
+    height: 238.4px;
+    font-size: 35.7px;
+}
+.uiux-design-intern-container {
+    position: absolute;
+    top: 2080.76px;
+    left: 75.85px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 777.5px;
+    height: 413.4px;
+    font-size: 35.7px;
+}
+.design-thinking {
+    position: absolute;
+    top: 1871.39px;
+    left: 679.64px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 41.1px;
+}
+.delhi-public-school-container {
+    position: absolute;
+    top: 2362.97px;
+    left: 994.8px;
+    font-size: 35.71px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 464.3px;
+}
+.senior-graphic-designer-container {
+    position: absolute;
+    top: 2836.1px;
+    left: 73.42px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 695.3px;
+    font-size: 35.7px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 1741.93px;
+    left: 73.42px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 274.1px;
+    height: 76.8px;
+}
+.problem-solving {
+    position: absolute;
+    top: 1759.79px;
+    left: 85.03px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 41.1px;
+}
+.resume-child1 {
+    position: absolute;
+    top: 1741.93px;
+    left: 365.37px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 275px;
+    height: 76.8px;
+}
+.user-experience {
+    position: absolute;
+    top: 1759.79px;
+    left: 376.98px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 41.1px;
+}
+.resume-child2 {
+    position: absolute;
+    top: 1741.93px;
+    left: 668.92px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 274.1px;
+    height: 75px;
+}
+.user-design {
+    position: absolute;
+    top: 1759.79px;
+    left: 679.64px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 40.2px;
+}
+.resume-child3 {
+    position: absolute;
+    top: 1853.53px;
+    left: 1077.83px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 274.1px;
+    height: 75px;
+}
+.adobe-illustrator {
+    position: absolute;
+    top: 1871.39px;
+    left: 1088.54px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 40.2px;
+}
+.resume-child4 {
+    position: absolute;
+    top: 1741.93px;
+    left: 1077.83px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 274.1px;
+    height: 75px;
+}
+.figma {
+    position: absolute;
+    top: 1759.79px;
+    left: 1088.54px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 40.2px;
+}
+.resume-child5 {
+    position: absolute;
+    top: 1853.53px;
+    left: 1379.59px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 274.1px;
+    height: 75px;
+}
+.adobe-after-effects {
+    position: absolute;
+    top: 1871.39px;
+    left: 1390.31px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 40.2px;
+}
+.resume-child6 {
+    position: absolute;
+    top: 1741.93px;
+    left: 1380.49px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 274.1px;
+    height: 75px;
+}
+.adobe-photoshop {
+    position: absolute;
+    top: 1759.79px;
+    left: 1391.2px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 40.2px;
+}
+.resume-child7 {
+    position: absolute;
+    top: 2076.73px;
+    left: 1077.83px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 274.1px;
+    height: 75px;
+}
+.microsoft-office {
+    position: absolute;
+    top: 2094.59px;
+    left: 1088.54px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 40.2px;
+}
+.resume-child8 {
+    position: absolute;
+    top: 1965.13px;
+    left: 1077.83px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 274.1px;
+    height: 75px;
+}
+.miro {
+    position: absolute;
+    top: 1982.99px;
+    left: 1088.54px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 40.2px;
+}
+.resume-child9 {
+    position: absolute;
+    top: 2076.73px;
+    left: 1379.59px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 274.1px;
+    height: 75px;
+}
+.visual-studio-code {
+    position: absolute;
+    top: 2094.59px;
+    left: 1390.31px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 40.2px;
+}
+.resume-child10 {
+    position: absolute;
+    top: 1965.13px;
+    left: 1380.49px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 274.1px;
+    height: 75px;
+}
+.whimsical {
+    position: absolute;
+    top: 1982.99px;
+    left: 1391.2px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 40.2px;
+}
+.resume-child11 {
+    position: absolute;
+    top: 1852.64px;
+    left: 365.37px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 275px;
+    height: 76.8px;
+}
+.user-research {
+    position: absolute;
+    top: 1871.39px;
+    left: 376.98px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 41.1px;
+}
+.resume-child12 {
+    position: absolute;
+    top: 1852.64px;
+    left: 73.42px;
+    border-radius: 75.89px;
+    border: 0.9px solid #fff;
+    box-sizing: border-box;
+    width: 274.1px;
+    height: 75.9px;
+}
+.strong-communication {
+    position: absolute;
+    top: 1870.49px;
+    left: 85.03px;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 251.8px;
+    height: 40.2px;
+}
+.vuesaxoutlinearrow-down-icon {
+    position: absolute;
+    top: 1031px;
+    left: 1642.97px;
+    width: 64px;
+    height: 65px;
+}
+.sriyakshisgmailcom {
+    position: absolute;
+    top: 3415.09px;
+    left: 755.46px;
+    font-size: 20.7px;
+    letter-spacing: -0.01em;
+    color: #ffe100;
+    text-align: left;
+}
+.instagram {
+    position: absolute;
+    top: 3372.66px;
+    left: 727.11px;
+    font-size: 20.7px;
+    letter-spacing: -0.01em;
+    color: #ffe100;
+    text-align: left;
+}
+.linkedin {
+    position: absolute;
+    top: 3372.66px;
+    left: 902.27px;
+    font-size: 20.7px;
+    letter-spacing: -0.01em;
+    color: #ffe100;
+    text-align: left;
+}
+.get-in-contact {
+    position: absolute;
+    top: 3287.66px;
+    left: 718.36px;
+    font-size: 36.81px;
+    letter-spacing: -0.01em;
+    font-family: 'Brown Sugar';
+    color: #ffe100;
+    text-align: left;
+}
+.image-49-icon {
+    position: absolute;
+    height: 10.04%;
+    width: 20.31%;
+    top: 33.96%;
+    right: 75.27%;
+    bottom: 56%;
+    left: 4.42%;
+    border-radius: 172.31px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.resume {
+    width: 100%;
+    position: relative;
+    background-color: #fb453a;
+    height: 3519px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 28.57px;
+    color: #fff;
+    font-family: Avenir;
+}
+

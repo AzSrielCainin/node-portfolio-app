@@ -1,0 +1,426 @@
+
+html {
+    scroll-behavior: smooth;
+}
+.home-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #142d47;
+    width: 1728px;
+    height: 5309px;
+}
+.uiux-designer {
+    position: absolute;
+    top: 516px;
+    left: 544px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 640px;
+    height: 156px;
+}
+.lorem-ipsum {
+    position: relative;
+}
+.lorem-ipsum-wrapper {
+    position: absolute;
+    top: 746px;
+    left: 723px;
+    backdrop-filter: blur(35px);
+    border-radius: 41px;
+    background-color: rgba(166, 166, 166, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    width: 282px;
+    height: 83px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff8f8;
+}
+.s-logo-01-1 {
+    position: absolute;
+    top: 15.19px;
+    left: 17.88px;
+    width: 56px;
+    height: 81.2px;
+    object-fit: cover;
+}
+.home-inner {
+    position: absolute;
+    top: 411.73px;
+    left: 1196.13px;
+    background-color: #fb453a;
+    width: 531.9px;
+    height: 571.4px;
+}
+
+
+.home-item {
+    position: absolute;
+    top: -801.96px; /* Adjust as needed */
+    left: -784.46px; /* Adjust as needed */
+    border-radius: 50%;
+    background-color: #fb453a;
+    width: 1466.7px;
+    height: 1499.4px;
+    display: block; /* Initially visible */
+}
+.sriyakshi-sinha {
+    position: absolute;
+    top: 370px;
+    left: 237.5px;
+    font-size: 128px;
+    letter-spacing: -0.01em;
+    font-family: 'Brown Sugar';
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1253px;
+    height: 146px;
+    cursor: pointer; /* Indicate it's interactive */
+}
+
+
+/* Use keyframes for animation if needed */
+@keyframes w3-animate-left {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Use keyframes for animation if needed */
+@keyframes w3-animate-right {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply the animation when home-item becomes visible */
+.home-item {
+    animation: w3-animate-left 1s forwards; /* Add animation when displayed */
+}
+ 
+.home-inner {
+    animation: w3-animate-right 1s forwards; /* Add animation when displayed */
+}
+
+.design-projects {
+    position: absolute;
+    top: 1161.68px;
+    left: 66.68px;
+    font-size: 128px;
+    letter-spacing: -0.01em;
+    font-family: 'Brown Sugar';
+    color: #fb453a;
+    white-space: pre-wrap;
+    display: flex;
+    align-items: center;
+    width: 1061.9px;
+    height: 146px;
+}
+.four-squares {
+    position: absolute;
+    top: 2735.52px;
+    left: 482.44px;
+    letter-spacing: -0.01em;
+}
+.a-website-for {
+    position: absolute;
+    top: 2836.75px;
+    left: 105.89px;
+    font-size: 36px;
+    letter-spacing: -0.01em;
+    color: #e1e1e1;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    width: 693.6px;
+}
+.line-div {
+    position: absolute;
+    top: 2818.64px;
+    left: 325.37px;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 474.6px;
+    height: 1px;
+}
+.ameya-engineering-solutions {
+    position: absolute;
+    top: 3195.79px;
+    left: 177.13px;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+.a-website-for1 {
+    position: absolute;
+    top: 3298px;
+    left: 200.44px;
+    font-size: 36px;
+    letter-spacing: -0.01em;
+    color: #e1e1e1;
+}
+.home-child1 {
+    position: absolute;
+    top: 3280.62px;
+    left: 325.06px;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 474.6px;
+    height: 1px;
+}
+.niyati {
+    position: absolute;
+    top: 3865.64px;
+    left: 928.56px;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+.a-service-catered {
+    position: absolute;
+    top: 3962.14px;
+    left: 928.56px;
+    font-size: 36px;
+    letter-spacing: -0.01em;
+    color: #e1e1e1;
+    display: flex;
+    align-items: center;
+    width: 636.5px;
+}
+.home-child2 {
+    position: absolute;
+    top: 3941.69px;
+    left: 928.06px;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 474.6px;
+    height: 1px;
+}
+.swayam {
+    position: absolute;
+    top: 4346.07px;
+    left: 928.56px;
+    letter-spacing: -0.01em;
+}
+.sriyakshisgmailcom {
+    position: absolute;
+    top: 5081.4px;
+    left: 766.09px;
+    font-size: 20.7px;
+    letter-spacing: -0.01em;
+}
+.redesign-of-swayam- {
+    position: absolute;
+    top: 4440.01px;
+    left: 928.56px;
+    font-size: 36px;
+    letter-spacing: -0.01em;
+    color: #e1e1e1;
+    white-space: pre-wrap;
+    display: flex;
+    align-items: center;
+    width: 636.5px;
+}
+.home-child3 {
+    position: absolute;
+    top: 4419.56px;
+    left: 928.06px;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 474.6px;
+    height: 1px;
+}
+.vuesaxoutlinearrow-down-icon {
+    position: absolute;
+    top: 1027px;
+    left: 1647px;
+    width: 64px;
+    height: 65px;
+}
+.home1 {
+    position: absolute;
+    top: 39.28px;
+    left: 1332.61px;
+    font-size: 24px;
+    text-align: center;
+}
+.about-me {
+    position: absolute;
+    top: 39.28px;
+    left: 1439.81px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+.resume {
+    position: absolute;
+    top: 39.28px;
+    left: 1591px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+.eco-sync {
+    position: absolute;
+    top: 1529.84px;
+    left: 929.06px;
+    letter-spacing: -0.01em;
+    text-align: right;
+}
+.an-app-which {
+    position: absolute;
+    top: 1649.85px;
+    left: 928.56px;
+    font-size: 36px;
+    letter-spacing: -0.01em;
+    color: #e1e1e1;
+    white-space: pre-wrap;
+    display: flex;
+    align-items: center;
+    width: 651.6px;
+}
+.home-child4 {
+    position: absolute;
+    top: 1615.29px;
+    left: 928.56px;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 474.6px;
+    height: 1px;
+}
+.b-yana {
+    position: absolute;
+    top: 2019.01px;
+    left: 929.06px;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+.an-app-which1 {
+    position: absolute;
+    top: 2137.91px;
+    left: 928.56px;
+    font-size: 36px;
+    letter-spacing: -0.01em;
+    color: #e1e1e1;
+    display: flex;
+    align-items: center;
+    width: 650.6px;
+}
+.home-child5 {
+    position: absolute;
+    top: 2104.46px;
+    left: 928.06px;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 474.6px;
+    height: 1px;
+}
+.ecosync-icon {
+    position: absolute;
+    top: 1385.92px;
+    left: 0px;
+    border-radius: 0px 200px 0px 0px;
+    width: 799.4px;
+    height: 543.9px;
+    object-fit: cover;
+}
+.byana-icon {
+    position: absolute;
+    top: 1952.17px;
+    left: 0px;
+    border-radius: 0px 0px 200px 0px;
+    width: 799.4px;
+    height: 541.5px;
+    object-fit: cover;
+}
+.four-icon {
+    position: absolute;
+    top: 2495.97px;
+    left: 928.56px;
+    border-radius: 200px 0px 0px 0px;
+    width: 799.4px;
+    height: 545.1px;
+    object-fit: cover;
+}
+.ameya-icon {
+    position: absolute;
+    top: 3064.14px;
+    left: 928.56px;
+    border-radius: 0px 0px 0px 200px;
+    width: 799.4px;
+    height: 543.9px;
+    object-fit: cover;
+}
+.niyati-icon {
+    position: absolute;
+    top: 3608.04px;
+    left: 0px;
+    border-radius: 0px 200px 0px 0px;
+    width: 799.4px;
+    height: 543.9px;
+    object-fit: cover;
+}
+.swayam-icon {
+    position: absolute;
+    top: 4176.13px;
+    left: 0px;
+    border-radius: 0px 0px 200px 0px;
+    width: 799.4px;
+    height: 543.9px;
+    object-fit: cover;
+}
+.instagram {
+    position: absolute;
+    top: 5038.97px;
+    left: 737.74px;
+    font-size: 20.7px;
+    letter-spacing: -0.01em;
+}
+.linkedin {
+    position: absolute;
+    top: 5038.97px;
+    left: 912.91px;
+    font-size: 20.7px;
+    letter-spacing: -0.01em;
+}
+.get-in-contact {
+    position: absolute;
+    top: 4953.97px;
+    left: 729px;
+    font-size: 36.81px;
+    letter-spacing: -0.01em;
+    font-family: 'Brown Sugar';
+}
+.home {
+    width: 100%;
+    position: relative;
+    background-color: #fff7f3;
+    height: 5228px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 48px;
+    color: #ffe100;
+    font-family: Avenir;
+}
+
+
+

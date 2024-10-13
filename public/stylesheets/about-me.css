@@ -1,0 +1,200 @@
+.about-me-child {
+    position: absolute;
+    top: -809.43px;
+    left: -784.46px;
+    border-radius: 50%;
+    background-color: #fb453a;
+    width: 1552.6px;
+    height: 1587.3px;
+}
+.about-me-item {
+    position: absolute;
+    top: 439.97px;
+    left: 1126.32px;
+    background-color: #fb453a;
+    width: 601.7px;
+    height: 555.2px;
+}
+/* Use keyframes for animation if needed */
+@keyframes w3-animate-left {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Use keyframes for animation if needed */
+@keyframes w3-animate-right {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+/* Apply the animation when home-item becomes visible */
+.about-me-child {
+    animation: w3-animate-left 1s forwards; /* Add animation when displayed */
+}
+ 
+.about-me-item {
+    animation: w3-animate-right 1s forwards; /* Add animation when displayed */
+}
+.home {
+    position: absolute;
+    top: 50.1px;
+    left: 1349.17px;
+    color: #fff;
+    text-align: center;
+}
+.about-me1 {
+    position: absolute;
+    top: 50.1px;
+    left: 1456.36px;
+    text-align: center;
+}
+.resume {
+    position: absolute;
+    top: 50.1px;
+    left: 1607.56px;
+    color: #fff;
+    text-align: center;
+}
+.s-logo-blue-01 {
+    position: absolute;
+    top: 25.38px;
+    left: 31px;
+    width: 57.8px;
+    height: 82.8px;
+    object-fit: cover;
+}
+.because-nobody-can {
+    position: absolute;
+    top: 526.87px;
+    left: 544px;
+    font-size: 40px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 640px;
+    height: 156px;
+}
+.about-me2 {
+    position: absolute;
+    top: 380.87px;
+    left: 237.5px;
+    font-size: 128px;
+    letter-spacing: -0.01em;
+    font-family: 'Brown Sugar';
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1253px;
+    height: 146px;
+}
+.about-me-inner {
+    position: absolute;
+    top: 1215.26px;
+    left: 589.75px;
+    width: 0px;
+    height: 372.9px;
+    object-fit: contain;
+}
+.im-sriyakshi-a {
+    position: absolute;
+    top: 1306.26px;
+    left: 200.11px;
+    font-size: 32px;
+    letter-spacing: -0.01em;
+    color: #000;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    width: 329px;
+}
+.tldr {
+    position: absolute;
+    top: 1224.26px;
+    left: 405.16px;
+    font-size: 48px;
+    letter-spacing: -0.01em;
+    font-family: 'Brown Sugar';
+    color: #000;
+    display: flex;
+    align-items: center;
+    width: 132.9px;
+}
+.hey-there-im {
+    margin: 0;
+}
+.hey-there-im-container1 {
+    width: 100%;
+}
+.hey-there-im-container {
+    position: absolute;
+    top: 1215.26px;
+    left: 768.18px;
+    letter-spacing: -0.01em;
+    color: #000;
+    display: flex;
+    align-items: center;
+    width: 748.8px;
+}
+.vuesaxoutlinearrow-down-icon {
+    position: absolute;
+    top: 1019px;
+    left: 1650.56px;
+    width: 64px;
+    height: 65px;
+}
+.sriyakshisgmailcom {
+    position: absolute;
+    top: 2341.84px;
+    left: 766.09px;
+    font-size: 20.7px;
+    letter-spacing: -0.01em;
+}
+.instagram {
+    position: absolute;
+    top: 2299.41px;
+    left: 737.74px;
+    font-size: 20.7px;
+    letter-spacing: -0.01em;
+}
+.linkedin {
+    position: absolute;
+    top: 2299.41px;
+    left: 912.91px;
+    font-size: 20.7px;
+    letter-spacing: -0.01em;
+}
+.get-in-contact {
+    position: absolute;
+    top: 2214.42px;
+    left: 729px;
+    font-size: 36.81px;
+    letter-spacing: -0.01em;
+    font-family: 'Brown Sugar';
+}
+.about-me {
+    width: 100%;
+    position: relative;
+    background-color: #ffe100;
+    height: 2441px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #142d47;
+    font-family: Avenir;
+}
+
