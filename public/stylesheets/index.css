@@ -1,7 +1,9 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x:hidden;
 }
+
 .home-child {
     position: absolute;
     top: 0px;
@@ -25,13 +27,14 @@ html {
 .lorem-ipsum {
     position: relative;
 }
+
 .lorem-ipsum-wrapper {
     position: absolute;
     top: 746px;
     left: 723px;
     backdrop-filter: blur(35px);
     border-radius: 41px;
-    background-color: rgba(166, 166, 166, 0.1);
+    background-color: rgba(166, 166, 166, 0.1); /* Initial background */
     border: 1px solid rgba(255, 255, 255, 0.5);
     box-sizing: border-box;
     width: 282px;
@@ -44,7 +47,23 @@ html {
     text-align: center;
     font-size: 24px;
     color: #fff8f8;
+    cursor: pointer; /* Show it’s clickable */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
 }
+
+/* Hover effect: darker opacity */
+.lorem-ipsum-wrapper:hover {
+    background-color: rgba(166, 166, 166, 0.6); /* Darker opacity on hover */
+    color: #fff8f8; /* Same text color */
+}
+
+/* Pressed effect: yellow background with blue text */
+.lorem-ipsum-wrapper:active {
+    background-color: #FFE100; /* Yellow background */
+    color: #142D47; /* Blue text on press */
+}
+
+.lorem-ipsum-wrapper 
 .s-logo-01-1 {
     position: absolute;
     top: 15.19px;
